@@ -1,0 +1,60 @@
+.intro {
+  background: #043679;
+}
+.intro .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #cccccc;
+}
+.intro .top .logo {
+  display: flex;
+}
+.intro .top .logo img {
+  width: 74px;
+  height: 45px;
+}
+.intro .top .contact {
+  display: flex;
+}
+.intro .top .contact p {
+  margin-left: 10px;
+  position: relative;
+}
+.intro .top .contact .phone:before {
+  display: block;
+  content: "";
+  background-image: url("/icons/phone-solid.svg");
+  position: absolute;
+  background-size: cover;
+}
+.intro .top .contact .contact:before {
+  display: block;
+  content: "";
+  background-image: url("/icons/envelope-solid.svg");
+}
+.intro .top .menu i {
+  font-size: 40px;
+}
+.intro .main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro .main .classes {
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  margin-top: 100px;
+}
+.intro .main .classes img {
+  width: 700px;
+  height: 350px;
+}
+.intro .main .classes .title {
+  width: 500px;
+}
+.intro .main .current {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
