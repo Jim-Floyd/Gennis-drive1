@@ -290,6 +290,8 @@ section {
           justify-content: space-between;
   position: absolute;
   width: 400px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .section-info .info .info-frame .pos-abs .info-left {
@@ -341,6 +343,18 @@ section {
 
 .team h2 {
   font-family: cursive;
+}
+
+.team .outer {
+  background-color: #040725;
+  width: 540px;
+  margin-left: 380px;
+  height: 42px;
+}
+
+.team .outer .inner {
+  background-color: white;
+  height: 38px;
 }
 
 .team .teammates {

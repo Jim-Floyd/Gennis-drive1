@@ -177,6 +177,7 @@ section {
         justify-content: space-between;
         position: absolute;
         width: 400px;
+        transition: 0.5s;
         .info-left {
           display: flex;
           flex-direction: column;
@@ -211,6 +212,17 @@ section {
   height: 500px;
   h2 {
     font-family: cursive;
+  }
+  .outer {
+    background-color: #040725;
+    width: 540px;
+    margin-left: 380px;
+    height: 42px;
+
+    .inner {
+      background-color: white;
+      height: 38px;
+    }
   }
   .teammates {
     display: flex;
