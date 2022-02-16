@@ -1,7 +1,8 @@
-header {
+.header {
   position: fixed;
-  left: -400px;
-
+  left: 0;
+  transition: 0.5s;
+  height: 100%;
   background-color: #2835aa7c;
   z-index: 1;
   nav {
@@ -20,6 +21,9 @@ header {
       list-style: none;
     }
   }
+}
+.hidden {
+  left: -400px;
 }
 section {
   height: 800px;

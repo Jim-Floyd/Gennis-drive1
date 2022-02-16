@@ -10,12 +10,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
+    <header class="header hidden">
       <nav>
         <ul>
           <li>Home</li>
@@ -130,7 +133,7 @@
                 <input type="text" placeholder="Enter your name" />
                 <input type="number" placeholder="Enter your number" />
                 <input type="email" placeholder="Enter your email" />
-               <button>Register</button>
+                <button>Register</button>
               </div>
             </div>
           </div>
@@ -293,87 +296,154 @@
       </div>
     </section>
     <section class="video">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/EN84zyEcqBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/EN84zyEcqBY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </section>
     <section class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d747.3174600376016!2d69.57633842920387!3d41.4767493034922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aefd32b4ef33d5%3A0x62913360d4b63b21!2sHavas!5e0!3m2!1sru!2s!4v1644820085685!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d747.3174600376016!2d69.57633842920387!3d41.4767493034922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aefd32b4ef33d5%3A0x62913360d4b63b21!2sHavas!5e0!3m2!1sru!2s!4v1644820085685!5m2!1sru!2s"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
     </section>
     <section class="comments">
       <div class="container">
-      <div class="comment">
-        <img src="./drive_img_icons/img/comment/comment_img.jpg" alt="">
-        <div class="comment-main">
-          <div class="comment-fullname">
-            <h2>Mr Lorem, ipsum.</h2>
+        <div class="comment">
+          <img src="./drive_img_icons/img/comment/comment_img.jpg" alt="" />
+          <div class="comment-main">
+            <div class="comment-fullname">
+              <h2>Mr Lorem, ipsum.</h2>
+            </div>
+            <div class="comment-text">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur necessitatibus asperiores tenetur eaque nulla accusamus
+                magni quis earum perferendis ullam. Cum distinctio illo expedita
+                nam?
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+                pariatur dicta magnam quod! Dolores tenetur sit cupiditate
+                facere voluptatum in accusantium amet debitis ea laudantium quo
+                eaque corrupti aliquid earum inventore ullam, ad enim animi
+                officiis corporis aliquam qui! Voluptatum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur voluptatem magnam cumque provident aut dolore error
+                officia officiis exercitationem porro, voluptatum aliquam sit
+                soluta! Molestiae, alias. Commodi maxime repellendus error.
+              </p>
+              <p>thanks!</p>
+            </div>
           </div>
-          <div class="comment-text">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur necessitatibus asperiores tenetur eaque nulla accusamus magni quis earum perferendis ullam. Cum distinctio illo expedita nam?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio pariatur dicta magnam quod! Dolores tenetur sit cupiditate facere voluptatum in accusantium amet debitis ea laudantium quo eaque corrupti aliquid earum inventore ullam, ad enim animi officiis corporis aliquam qui! Voluptatum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptatem magnam cumque provident aut dolore error officia officiis exercitationem porro, voluptatum aliquam sit soluta! Molestiae, alias. Commodi maxime repellendus error.</p>
-            <p>thanks!</p>
+        </div>
+        <div class="comment">
+          <img src="./drive_img_icons/img/comment/comment_img2.jpg" alt="" />
+          <div class="comment-main">
+            <div class="comment-fullname">
+              <h2>Mr Lorem, ipsum.</h2>
+            </div>
+            <div class="comment-text">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur necessitatibus asperiores tenetur eaque nulla accusamus
+                magni quis earum perferendis ullam. Cum distinctio illo expedita
+                nam?
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+                pariatur dicta magnam quod! Dolores tenetur sit cupiditate
+                facere voluptatum in accusantium amet debitis ea laudantium quo
+                eaque corrupti aliquid earum inventore ullam, ad enim animi
+                officiis corporis aliquam qui! Voluptatum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur voluptatem magnam cumque provident aut dolore error
+                officia officiis exercitationem porro, voluptatum aliquam sit
+                soluta! Molestiae, alias. Commodi maxime repellendus error.
+              </p>
+              <p>thanks!</p>
+            </div>
+          </div>
+        </div>
+        <div class="comment">
+          <img src="./drive_img_icons/img/comment/comment_img3.png" alt="" />
+          <div class="comment-main">
+            <div class="comment-fullname">
+              <h2>Mrs Lorem, ipsum.</h2>
+            </div>
+            <div class="comment-text">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur necessitatibus asperiores tenetur eaque nulla accusamus
+                magni quis earum perferendis ullam. Cum distinctio illo expedita
+                nam?
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+                pariatur dicta magnam quod! Dolores tenetur sit cupiditate
+                facere voluptatum in accusantium amet debitis ea laudantium quo
+                eaque corrupti aliquid earum inventore ullam, ad enim animi
+                officiis corporis aliquam qui! Voluptatum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur voluptatem magnam cumque provident aut dolore error
+                officia officiis exercitationem porro, voluptatum aliquam sit
+                soluta! Molestiae, alias. Commodi maxime repellendus error.
+              </p>
+              <p>thanks!</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="comment">
-        <img src="./drive_img_icons/img/comment/comment_img2.jpg" alt="">
-        <div class="comment-main">
-          <div class="comment-fullname">
-            <h2>Mr Lorem, ipsum.</h2>
-          </div>
-          <div class="comment-text">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur necessitatibus asperiores tenetur eaque nulla accusamus magni quis earum perferendis ullam. Cum distinctio illo expedita nam?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio pariatur dicta magnam quod! Dolores tenetur sit cupiditate facere voluptatum in accusantium amet debitis ea laudantium quo eaque corrupti aliquid earum inventore ullam, ad enim animi officiis corporis aliquam qui! Voluptatum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptatem magnam cumque provident aut dolore error officia officiis exercitationem porro, voluptatum aliquam sit soluta! Molestiae, alias. Commodi maxime repellendus error.</p>
-            <p>thanks!</p>
-          </div>
-        </div>
-      </div>
-      <div class="comment">
-        <img src="./drive_img_icons/img/comment/comment_img3.png" alt="">
-        <div class="comment-main">
-          <div class="comment-fullname">
-            <h2>Mrs Lorem, ipsum.</h2>
-          </div>
-          <div class="comment-text">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur necessitatibus asperiores tenetur eaque nulla accusamus magni quis earum perferendis ullam. Cum distinctio illo expedita nam?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio pariatur dicta magnam quod! Dolores tenetur sit cupiditate facere voluptatum in accusantium amet debitis ea laudantium quo eaque corrupti aliquid earum inventore ullam, ad enim animi officiis corporis aliquam qui! Voluptatum.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptatem magnam cumque provident aut dolore error officia officiis exercitationem porro, voluptatum aliquam sit soluta! Molestiae, alias. Commodi maxime repellendus error.</p>
-            <p>thanks!</p>
-          </div>
-        </div>
-      </div>
-    </div>
     </section>
     <footer>
       <div class="container">
-      <div class="footer-title">
-        <h2>About</h2>
-        <h2>Links</h2>
-        <h2>Follow us</h2>
-        <h2>Get News</h2>
-      </div>
-      <div class="footer-main">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto eaque accusantium molestiae repellendus quidem saepe porro tempora? Eos, quos sit.</p>
-        <ul>
-          <li>Home</li>
-          <li>Events</li>
-          <li>Our team</li>
-          <li>Address</li>
-          <li>Comments</li>
-        </ul>
-        <ul>
-          <li>Instagram</li>
-          <li>Facebook</li>
-          <li>Telegram</li>
-          <li>Twitter</li>
-          <li>Youtube</li>
-        </ul>
-        <div class="get-news">
-          <input type="email" placeholder="Enter your email">
-          <button>Send</button>
+        <div class="footer-title">
+          <h2>About</h2>
+          <h2>Links</h2>
+          <h2>Follow us</h2>
+          <h2>Get News</h2>
+        </div>
+        <div class="footer-main">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto
+            eaque accusantium molestiae repellendus quidem saepe porro tempora?
+            Eos, quos sit.
+          </p>
+          <ul>
+            <li>Home</li>
+            <li>Events</li>
+            <li>Our team</li>
+            <li>Address</li>
+            <li>Comments</li>
+          </ul>
+          <ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Telegram</li>
+            <li>Twitter</li>
+            <li>Youtube</li>
+          </ul>
+          <div class="get-news">
+            <input type="email" placeholder="Enter your email" />
+            <button>Send</button>
+          </div>
         </div>
       </div>
-    </div>
     </footer>
     <script src="script.js"></script>
   </body>
