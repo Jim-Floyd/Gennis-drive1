@@ -293,6 +293,7 @@ section {
     justify-content: space-between;
     border: #000 solid 2px;
     margin-bottom: 20px;
+    transition-duration: 0.5s;
     &:hover {
       transform: scale(1.007);
     }

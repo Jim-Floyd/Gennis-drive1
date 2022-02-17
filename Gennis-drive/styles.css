@@ -472,6 +472,8 @@ section {
           justify-content: space-between;
   border: #000 solid 2px;
   margin-bottom: 20px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
   -webkit-box-shadow: 0 0 5px 3px #040e64;
           box-shadow: 0 0 5px 3px #040e64;
 }
