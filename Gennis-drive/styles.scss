@@ -66,7 +66,7 @@ section {
       opacity: 0;
       visibility: hidden;
       margin-top: 100px;
-      margin-left: 100px;
+      margin-left: 180px;
       justify-content: space-between;
       .left {
         display: flex;
@@ -123,23 +123,23 @@ section {
         }
       }
     }
-    .left-move {
-      background-color: #cccccc00;
-      border: none;
-      font-size: 120px;
-      color: red;
-      margin-top: 250px;
-    }
-    .right-move {
-      background-color: #cccccc00;
-      border: none;
-      font-size: 120px;
-      color: red;
-    }
     .current {
       visibility: visible;
       opacity: 1;
     }
+  }
+  .left-move {
+    background-color: #cccccc00;
+    border: none;
+    font-size: 120px;
+    color: red;
+    margin-top: 250px;
+  }
+  .right-move {
+    background-color: #cccccc00;
+    border: none;
+    font-size: 120px;
+    color: red;
   }
 }
 .section2 {

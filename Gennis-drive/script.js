@@ -13,21 +13,37 @@ menuIcon.addEventListener("click", () => {
     menu.classList.add("hidden");
   }
 });
-const remove = function () {
-  classes.classList.remove("current");
-};
-leftBtn.addEventListener("click", () => {
-  classes.forEach((item, id) => {
-    remove();
-    if (item.previousElementSibling) {
-      id = leftBtn.length - 1;
-    } else {
-      id--;
-    }
-    console.log(id);
-    item[id].classList.add("current");
-  });
+function remove() {
+  classes.forEach( classe =>{
+    classe.classList.remove('current')
+  })
+}
+function addCurrentleft() {
+  const current = document.querySelector('.current');
+  remove()
+  if (current.previousElementSibling){
+    current.previousElementSibling.classList.add('current')
+  } else {
+    classes[classes.length - 1].classList.add('current')
+  }
+} 
+function addCurrentright() {
+  const current = document.querySelector('.current');
+  remove()
+  console.log(current.nextElementSibling)
+  if (current.nextElementSibling){
+    current.nextElementSibling.classList.add('current')
+  } else {
+    classes[0].classList.add('current')
+  }
+}
+leftBtn.addEventListener("click", () => { 
+ 
+  addCurrentleft()
 });
+rightBtn.addEventListener('click', ()=>{
+  addCurrentright()
+})
 posAbs.forEach((item, id) => {
   moreInfo[id].addEventListener("click", () => {
     item.style.cssText = "left:-220px";

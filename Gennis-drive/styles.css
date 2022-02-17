@@ -106,7 +106,7 @@ section {
   opacity: 0;
   visibility: hidden;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 180px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -211,7 +211,12 @@ section {
   font-size: 15px;
 }
 
-.intro .main .left-move {
+.intro .main .current {
+  visibility: visible;
+  opacity: 1;
+}
+
+.intro .left-move {
   background-color: #cccccc00;
   border: none;
   font-size: 120px;
@@ -219,16 +224,11 @@ section {
   margin-top: 250px;
 }
 
-.intro .main .right-move {
+.intro .right-move {
   background-color: #cccccc00;
   border: none;
   font-size: 120px;
   color: red;
-}
-
-.intro .main .current {
-  visibility: visible;
-  opacity: 1;
 }
 
 .section2 {
